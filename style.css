@@ -47,7 +47,7 @@ header nav ul li:last-child a {
   margin-right: 0;
 }
 
-a:link    {color: cornflowerblue}
+a:link    {color: antiquewhite;}
 a:visited {color: #7b46b8}
 a:hover   {color: blue}
 a:active  {color: #860a61}
@@ -97,6 +97,10 @@ hr {
 .contact-image {
   border: 1px solid #ababab;
   border-radius: 8px;
+}
+
+.contact-links li a {
+  color: blue;
 }
 
 form {
