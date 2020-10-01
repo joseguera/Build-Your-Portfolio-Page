@@ -7,6 +7,6 @@
 
 ## Preview image of my Website:
 
-![Jose's Portfolio Page](/images/build-your-portfolio-page.png "Jose's Portfolio Page")
+![Jose's Portfolio Page](/images/build-your-portfolio-page-app-image.png "Jose's Portfolio Page")
 
 
