@@ -47,10 +47,10 @@ header nav ul li:last-child a {
   margin-right: 0;
 }
 
-a:link    {color: antiquewhite;}
-a:visited {color: #7b46b8}
-a:hover   {color: blue}
-a:active  {color: #860a61}
+nav a:link    {color: #faebd7;}
+nav a:visited {color: #a4a4da}
+nav a:hover   {color: #c4f8af}
+nav a:active  {color: #ff9ae1}
 
 /*
 MAIN Styles
@@ -78,16 +78,18 @@ hr {
   border: none;
 }
 
+section {
+  margin: 20px;
+}
+
 .group {
   display: flex;
   flex-direction: column;
-  margin: 10px;
 }
 
 .item {
   flex: 1;
   margin: 0;
-  padding-left: 20px;
 }
 
 .item-double {

@@ -35,7 +35,7 @@
             <div class="item"> 
               <img src="images/Oseguera_Jose.jpg" alt="Jose Oseguera" />
             </div>
-            <div class="item-double">
+            <div class="item">
               <h2>Howdy! I'm Jose Oseguera</h2>
               <p>I'm a software engineer from Los Angeles, California.</p>
               <p>Being also a writer and musician, I'm interested in:</p>
@@ -54,8 +54,8 @@
         <section id="about">
           <div class="group">
             <div class="item">
-              <h3>About Jose</h3>
-              <p>After graduating college with a Bachelor's and Master's in Music, I worked in a variety of jobs, from
+              <h2>About Jose</h2>
+              <p>After graduating from college with a Bachelor's and Master's in Music, I worked in a variety of jobs, from
                 elementary school technology instructor to instructional designer for UCLA.</p>
               <p>I have a natural love and passion for teaching and inspiring young people to believe in themselves,
                 instilling in them that, with hard work and determination, anything is possible.</p>
@@ -63,8 +63,7 @@
             <div class="item">
               <p>As a student at <a href="https://www.thinkful.com/" target="_blank">Thinkful</a>, I look forward to
                 expanding on my knowledge of UX/UI as well as become proficient in web and software development.</p>
-              <p>If you're looking to hire someone who's creative and not afraid to take on new challenges, please reach
-                out. I look forward to working with a diverse team of developers-- from different backgrounds and
+              <p>Please reach out if you're looking for someone who's creative and not afraid to take on new challenges. I look forward to working with a diverse team of developers-- from different backgrounds and
                 experience levels-- on software that will change the world.</p>
             </div>
           </div>
@@ -73,16 +72,30 @@
       <hr>
       <article>
         <section id="projects">
+        <div>
+            <h2>Projects and Services</h2>
+            <p>Some of the services that I'd like to provide include creating apps that enrich the way people experience the internet. I want to create apps and webpages that:</p>
+            <ul>
+              <li>make people feel safe,</li>
+              <li>protect user information, and</li>
+              <li>create a fun interactve experience for all users</li>
+            </ul>
+          </div>
           <div class="group">
             <div class="item">
-              <h3>Projects and Services</h3>
-              <p>Projects coming real soon...</p>
-              <p>Some of the services that I'd like to provide include creating apps that enrich the way people experience the internet. I want to create apps and webpages that:</p>
-              <ul>
-                <li>make people feel safe,</li>
-                <li>protect user information, and</li>
-                <li>create a fun interactve experience for all users</li>
-              </ul>
+              <img class='coming-soon' src='/images/coming-soon.jpg' alt='coming soon'>
+              <h3>Quiz App</h3>
+              <p>This is a description of the Quiz App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+            </div>
+            <div class="item">
+              <img class='coming-soon' src='/images/coming-soon.jpg' alt='coming soon'>
+              <h3>Bookmark App</h3>
+              <p>This is a description of the Bookmark App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+            </div>
+            <div class="item">
+              <img class='coming-soon' src='/images/coming-soon.jpg' alt='coming soon'>
+              <h3>Search Your Favorite Dog App</h3>
+              <p>This is a description of the Search Your Favorite Dog App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
             </div>
           </div>
         </section>
@@ -92,7 +105,7 @@
         <section>
           <div class="group">
             <div class="item">
-              <h3 id="contact">Contact Jose</h3>
+              <h2 id="contact">Contact Jose</h2>
               <p>I'd love to hear from you. Please feel free to contact or follow me:</p>
               <ul class='contact-links'>
                 <li><a href="mailto: joseluis.oseguera.jr@gmail.com">joseluis.oseguera.jr@gmail.com</a></li>
@@ -102,28 +115,23 @@
               </ul>
             </div>
           </div>
-        </section>
+            <div class="group">
+              <div class="item-double">
+                <form action="https://formspree.io/joseluis.oseguera.jr@gmail.com" method="POST">
+                  <label for="user-name">Name:</label>
+                  <input id="user-name" type="text" name="name">
 
-        <!--CONTACT-->
-        <section>
-          <div class="group">
-            <div class="item-double">
-              <h2>Contact Form</h2>
-              <form action="https://formspree.io/joseluis.oseguera.jr@gmail.com" method="POST">
-                <label for="user-name">Name:</label>
-                <input id="user-name" type="text" name="name">
+                  <label for="user-email">Email:</label>
+                  <input id="user-email" type="text" name="email">
 
-                <label for="user-email">Email:</label>
-                <input id="user-email" type="text" name="email">
-
-                <label for="user-message">Message:</label>
-                <textarea id="user-message" name="message"></textarea>
-                <button type="submit">Submit</button>
-              </form>
-            </div>
-            <div class="item">
-              <img src="images/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" class="contact-image" alt="coffee and code">
-            </div>
+                  <label for="user-message">Message:</label>
+                  <textarea id="user-message" name="message"></textarea>
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+              <div class="item">
+                <img src="images/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" class="contact-image" alt="coffee and code">
+              </div>
           </div>
         </section>
       </article>
