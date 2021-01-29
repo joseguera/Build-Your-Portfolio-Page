@@ -1,159 +1,277 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jose Oseguera's Portfolio Page</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
-    type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Jose Oseguera - Full Stack Developer - Portfolio</title>
+
+
+    <meta name="title" content="Jose Oseguera - Full Stack Developer - Portfolio">
+    <meta name="description"
+        content="I have a natural love for coding and a passion for learning new ways of building websites.">
+    <meta name="keywords"
+        content="fullstack developer, full-stack developer, full stack developer, HTML, HTML5, CSS, CSS3, JavaScript, jQuery, Node.js, Express, Postman, Postgres, Knex, Mocha, Chai, Heroku, GitHub, Dbeaver, React">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="Jose Oseguera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="print.css" rel="stylesheet" media="print">
 </head>
 
 <body>
-
-  <!--HEADER Section-->
-
-  <header>
-    <h1>Jose Oseguera</h1>
-    <nav>
-      <ul id="menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!--MAIN Section-->
-
-  <main>
-    <div>
-      <article>
-        <section>
-          <div class="group">
-            <div class="item"> 
-              <img src="images/Oseguera_Jose.jpg" alt="Jose Oseguera" />
-            </div>
-            <div class="item">
-              <h2>Howdy! I'm Jose Oseguera</h2>
-              <p>I'm a software engineer from Los Angeles, California.</p>
-              <p>Being also a writer and musician, I'm interested in:</p>
-              <ul>
-                <li>Code that has something to say with as little as possible</li>
-                <li>Collaborating with creative people</li>
-                <li>Working on projects that help people be better</li>
-              </ul>
-              <p>Please take a look at my site and feel free to <a href="#contact">Contact Me</a>.</p>
-            </div>
-          </div>
-        </section>
-      </article>
-      <hr>
-      <article>
-        <section id="about">
-          <div class="group">
-            <div class="item">
-              <h2>About Jose</h2>
-              <p>After graduating from college with a Bachelor's and Master's in Music, I worked in a variety of jobs, from
-                elementary school technology instructor to instructional designer for UCLA.</p>
-              <p>I have a natural love and passion for teaching and inspiring young people to believe in themselves,
-                instilling in them that, with hard work and determination, anything is possible.</p>
-            </div>
-            <div class="item">
-              <p>As a student at <a href="https://www.thinkful.com/" target="_blank">Thinkful</a>, I look forward to
-                expanding on my knowledge of UX/UI as well as become proficient in web and software development.</p>
-              <p>Please reach out if you're looking for someone who's creative and not afraid to take on new challenges. I look forward to working with a diverse team of developers-- from different backgrounds and
-                experience levels-- on software that will change the world.</p>
-            </div>
-          </div>
-        </section>
-      </article>
-      <hr>
-      <article>
-        <section id="projects">
-        <div>
-            <h2>Projects and Services</h2>
-            <p>Some of the services that I'd like to provide include creating apps that enrich the way people experience the internet. I want to create apps and webpages that:</p>
-            <ul>
-              <li>make people feel safe,</li>
-              <li>protect user information, and</li>
-              <li>create a fun interactve experience for all users</li>
+    <header id="top">
+        <nav class="clearfix">
+            <div class="logo">Jose Oseguera</div>
+            <ul class="nav-items">
+                <li class="show-web-only">
+                    <a href="#top">
+                        <i class="fa fa-home clickables"></i> 
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="show-web-only">
+                    <a href="#bio">
+                        <i class="fas fa-user-circle"></i> 
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="show-web-only">
+                    <a href="#skills">
+                        <i class="fa fa-cog"></i> 
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="show-web-only">
+                    <a href="#projects">
+                        <i class="fa fa-briefcase"></i> 
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="https://joseguera.github.io/portfolio/">Portfolio Page: joseguera.github.io/portfolio/
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="mailto:joseluis.oseguera.jr@gmail.com?subject=Responding%20to%20Your%20Portfolio!">
+                        <i class="fas fa-envelope"></i> JoseLuis.Oseguera.Jr@gmail.com
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="https://github.com/joseguera">
+                        <i class="fab fa-github"></i> GitHub.com/Joseguera
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="https://www.linkedin.com/in/jose-oseguera-dev/">
+                        <i class="fab fa-linkedin"></i> www.linkedin.com/in/jose-oseguera-dev/
+                    </a>
+                </li>
+                <li class="show-web-only">
+                    <a href="#contact">
+                        <i class="fa fa-envelope"></i> 
+                        <span>Contact</span>
+                    </a>
+                </li>
             </ul>
-          </div>
-          <div class="group">
-            <div class="item">
-              <img class='coming-soon' src='images/my-noms-screen.png' alt='coming soon'>
-              <h3>NomNoms Food App</h3>
-              <p>NomNoms allows users to create recipes and modifications to foods based on their dietary choice.</p>
-              <a href='https://github.com/joseguera/capstone-one-api'>NomNoms-API</a><br>
-              <a href='https://nomnoms-app.vercel.app/'>NomNoms App</a>
-            </div>
-            <div class="item">
-              <img class='coming-soon' src='images/coming-soon.jpg' alt='coming soon'>
-              <h3>Bookmark App</h3>
-              <p>This is a description of the Bookmark App that I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
-              <a href='#'>Link to GitHub Repo</a><br>
-              <a href='#'>Link to Bookmark App</a>
-            </div>
-            <div class="item">
-              <img class='coming-soon' src='images/coming-soon.jpg' alt='coming soon'>
-              <h3>This is a note-taking app</h3>
-              <p>This is a description of the Note-Taking App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
-              <a href='#'>Link to GitHub Repo</a><br>
-              <a href='#'>Link to Note App</a>
-            </div>
-          </div>
-        </section>
-      </article>
-      <hr>
-      <article>
-        <section>
-          <div class="group">
-            <div class="item">
-              <h2 id="contact">Contact Jose</h2>
-              <p>I'd love to hear from you. Please feel free to contact or follow me:</p>
-              <ul class='contact-links'>
-                <li><a href="mailto:joseluis.oseguera.jr@gmail.com">joseluis.oseguera.jr@gmail.com</a></li>
-                <li><a href="https://www.linkedin.com/in/jose-oseguera-6b6182185/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/joseguera" target="_blank">GitHub</a></li>
-                <li><a href="https://stripsearchla.com/who-i-am/" target="_blank">WordPress (<i>My Writing</i>)</a></li>
-              </ul>
-            </div>
-          </div>
-            <div class="group">
-              <div class="item-double">
-                <form action="https://formspree.io/joseluis.oseguera.jr@gmail.com" method="POST">
-                  <label for="user-name">Name:</label>
-                  <input id="user-name" type="text" name="name">
+        </nav>
+        <h1>Boundless ingenuity, seamless design</h1>
+    </header>
 
-                  <label for="user-email">Email:</label>
-                  <input id="user-email" type="text" name="email">
 
-                  <label for="user-message">Message:</label>
-                  <textarea id="user-message" name="message"></textarea>
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-              <div class="item">
-                <img src="images/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" class="contact-image" alt="coffee and code">
-              </div>
-          </div>
-        </section>
-      </article>
-    </div>
-  </main>
+    <section class="about clearfix" id="bio">
+        <h2><i class="fas fa-user-circle"></i> About
+            <img class="about-me-image" src="/images/Oseguera_Jose.jpg" alt="Jose" />
+        </h2>
+        <p class="bio">
+          I have a natural love for coding and a passion for learning new ways of solving problems.
+          Building websites and applications allows me to combine research, composition and implementing a well, laid-out plan.
+        </p>
+        <p class="bio">
+            My background in instructional design and staff training has provided me with countless opportunities 
+            to revisit familiar concepts and present them in a new way that is both clear to all.
+        </p>
+        <p class="bio">
+            Contact me and we can talk about coding, design or training.
+        </p>
+    </section>
 
-  <!--FOOTER Section-->
+    <section class="skills" id="skills">
+        <h2><i class="fa fa-cog"></i> Skills</h2>
+        <div class="logo-container">
+            <figure class="figure-skills">
+                <img class="logo html" src="images/iconfinder_HTML.png" alt="html logo">
+                <figcaption>HTML 5</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/iconfinder_css3.png" alt="css logo">
+                <figcaption>CSS 3</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" style="margin-left: 0;" src="images/128px-JavaScript-logo.png" alt="JavaScript logo">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/iconfinder_JQuery.png" alt="jQuery logo">
+                <figcaption>JQuery</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/iconfinder_React.js.png" alt="react logo">
+                <figcaption>React.js</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/iconfinder_Node_Js.png" alt="node logo">
+                <figcaption>Node.js</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/express-logo.png" alt="express logo">
+                <figcaption>Express</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/heroku-logo.png" alt="heroku logo">
+                <figcaption>Heroku</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/mocha-logo.png" alt="mocha logo">
+                <figcaption>Mocha</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/chai-logo.png" alt="chai logo">
+                <figcaption>Chai</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/postgres-logo.png" alt="postgres logo">
+                <figcaption>Postgres</figcaption>
+            </figure>
+            <figure class="figure-skills">
+                <img class="logo" src="images/github-logo.png" alt="github logo">
+                <figcaption>Github</figcaption>
+            </figure>
+        </div>
+    </section>
 
-  <footer>
-    <div>
-      <nav>
-        <p>&copy; Jose Oseguera</p>
-      </nav>
-    </div>
-  </footer>
-  <script src="script.js"></script>
+
+    <section class="projects" id="projects">
+        <h2>
+            <i class="fa fa-briefcase"></i> 
+            Projects
+        </h2>
+
+
+        <div class="travel-container project-container">
+            <div class="project-column">
+                <a href="https://course-grader-capstone.vercel.app/" target="_blank">
+                    <img class="travel-diary project-image" src="./images/course-grader.png" alt="CourseGrader">
+                </a>
+            </div>
+
+            <div class="project-column">
+                <h4>CourseGrader</h4>
+                <p class="app-description">
+                  This app allows users to review courses and keep track of the instructor's syllabus and course quality as well as instructor-student interaction.
+                    <span class="show-web-only">
+                        Users can create course profiles or edit the ones they have already created.
+                    </span>
+                </p>
+                <ul class="project-skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Postgres</li>
+                    <li>Heroku</li>
+                    <li>Vercel</li>
+                </ul>
+                <ul class="project-buttons show-web-only">
+                    <li>
+                        <a href="https://course-grader-capstone.vercel.app/" target="_blank">
+                            <i class="fas fa-desktop"></i>
+                            Demo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/joseguera/course-evaluation-tracker-capstone-client" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </li>                    
+                </ul>
+                <ul class="project-buttons show-print-only">
+                    <li>
+                        <i class="fas fa-desktop"></i> https://course-grader-capstone.vercel.app/
+                    </li>
+                    <li>
+                        <i class="fab fa-github"></i> https://github.com/joseguera/course-evaluation-tracker-capstone-client
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <ul class="contact-list">
+            <li>
+                <a href="mailto:joseluis.oseguera.jr@gmail.com?subject=Responding%20to%20Your%20Portfolio!">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jose-oseguera-dev/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/joseguera" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+
+
+    <footer>
+        <h4>© 2021 Jose Oseguera</h4>
+        <a href="#top">
+            <i class="far fa-caret-square-up fa-2x"></i>
+        </a>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4WFKJX5BV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-C4WFKJX5BV');
+    </script>
+
+    <!-- Begin Inspectlet Asynchronous Code -->
+    <script>
+        (function () {
+            window.__insp = window.__insp || [];
+            __insp.push(['wid', 1680503485]);
+            var ldinsp = function () {
+                if (typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1680503485&r=' + Math.floor(new Date().getTime() / 3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x);
+            };
+            setTimeout(ldinsp, 0);
+        })();
+    </script>
+    <!-- End Inspectlet Asynchronous Code -->
+
 </body>
 
 </html>
