@@ -134,7 +134,7 @@ header nav div.logo {
 
 header nav div.logo {
   padding: 0px 20px;
-  color: #89A19B;
+  color: #5b6e6a;
   font-family: 'Homemade Apple', cursive;
   font-size: 155%;
 }
@@ -156,12 +156,13 @@ header nav ul.nav-items li:last-child {
 }
 
 header nav ul.nav-items li a {
-  color: #89A19B;
+  color: #5b6e6a;
 }
 
 header nav ul.nav-items li a:hover {
-  color: #525092;
+  color: #363f3d;
 }
+
 
 /* -------------------------------------
 Content styles (Main Module)
@@ -189,10 +190,11 @@ section.about {
 
 section.about h2 img.about-me-image {
   float: right;
-  margin-right: 20px;
+  margin-right: 30px;
+  margin-left: 15px;
   width: 32%;
   border-radius: 15px;
-  border: 1px solid #89A19B;
+  border: 1px solid #9E7669;
 }
 
 section.about p.bio {
@@ -219,7 +221,7 @@ section.projects {
 section.projects div.project-container {
   margin-bottom: 5%;
   margin-top: 2%;
-  border-bottom: 1px solid #998C8C;
+  border-bottom: 1px solid #9E7667;
 }
 
 section.projects div.project-container:last-child {
@@ -289,7 +291,7 @@ section.projects
   padding: 10px 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background-color: #89A19B;
+  background-color: #5b6e6a;
   color: white;
   text-decoration: none;
 }
@@ -300,7 +302,7 @@ section.projects
   ul.project-buttons
   li
   a:hover {
-  background-color: #70857f;
+  background-color: #363f3d;
 }
 
 section.project div.project-container .project-image {
@@ -338,11 +340,11 @@ section.contact ul.contact-list li {
 }
 
 section.contact ul.contact-list li a {
-  color: #89A19B;
+  color: #5b6e6a;
 }
 
 section.contact ul.contact-list li a:hover {
-  color: #70857f;
+  color: #363f3d;
 }
 
 /* -------------------------------------
@@ -365,11 +367,11 @@ footer a i.far {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  color: #163a8b;
+  color: #5b6e6a;
 }
 
 footer a:hover i.far {
-  color: #081e6f;
+  color: #363f3d;
 }
 
 /* -------------------------------------
@@ -473,6 +475,7 @@ place all the mobile tables styles below this line
   header nav div.logo {
     display: block;
     text-align: center;
+    
   }
 
   section.about h2 img.about-me-image {
